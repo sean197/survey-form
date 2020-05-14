@@ -1,0 +1,134 @@
+/* Reset */
+/* * means we're grabbing everything & clearing out default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    /* Padding won't add to width of box */
+    box-sizing: border-box;
+}
+body {
+    background-color: tomato;
+}
+
+p{
+    margin-left: 40px;
+}
+
+header{
+    font-size: 50px;
+    padding-left: 70px;
+}
+p{
+    font-size: 15px;
+    padding-left: 20px;
+}
+#sex{
+    border-radius: 5px;
+}
+
+.container {
+    position: relative;
+    border: 2px solid black;
+    max-width: 350px;
+    margin: auto;
+    background-color: white ;
+    padding: 20px 20px 20px 20px ;
+}
+
+#first-name {
+    width: 300px;
+    line-height: 20px;
+    border-radius: 5px; 
+}
+
+#last-name {
+    width: 300px;
+    line-height: 20px;
+    border-radius: 5px; 
+}
+
+#email {
+    width: 300px;
+    line-height: 20px;
+    border-radius: 5px; 
+}
+
+#age {
+    width: 300px;
+    line-height: 20px;
+    border-radius: 5px; 
+}
+
+#password-1 {
+    width: 300px;
+    line-height: 20px;
+    border-radius: 5px; 
+    border-radius: 5px; 
+}
+#password-2 {
+    width: 300px;
+    line-height: 20px;
+    border-radius: 5px; 
+    border-radius: 5px; 
+}
+
+span {
+    color: blue;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    width: 300px;
+}
+
+input[type=submit]:active {
+    color: red;
+}
+
+input[type=submit]:hover {
+    color: blue;
+    text-decoration: none;
+    background: gold;
+}
+
+.terms p{
+text-align: center;
+vertical-align: middle;
+margin-right: 60px;
+}
+small {
+    display: none;
+}
+
+.success{
+    border: 5px solid limegreen;
+}
+
+.error{
+    border: 5px solid red;
+}
+
+/* a:active {
+    color: red;
+ }
+
+ /* Button Styling */
+ /*Both buttons have a class of 'btn'*/
+ /* .btn {
+    background: #4c6ca0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    /* Cursor turn into a pointer when mouse interactss w/ buttons */
+    /* cursor: pointer; */
+
+/* 
+ .btn:hover {
+    color: #f4f4f4;
+    background: #446190;
+    text-decoration: none;
+ } */ 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <form id="form">
+            <header>Sign Up</header><br>
+            <p>Sign up or a gym membership</p><br>
+            <div>
+                <label for="first-name">First Name</label><br>
+                <input type="text"  id="first-name" placeholder="Please enter your first name">
+                <div class="feedback1"></div>
+
+            </div>
+            <div><br>
+                <label for="last-name">Last Name</label><br>
+                <input type="text"  id="last-name" placeholder="Please enter last name">
+                <div class="feedback"></div>
+            </div>
+            <div><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Email">
+                <div class="feedback"></div>
+            </div>
+            <div><br>
+                <label for="sex">Sex</label><br>
+                <select name="sex" id="sex">
+                    <option value="Male">Male</option>
+                    <option value="Female" selected>Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div> 
+            <div><br>
+                <label for="age">Age</label><br>
+                <input type="number" name="age" id="age" >
+                <div class="feedback"></div>
+            </div>
+            <div><br>
+                <label for="membership">Membership</label><br>
+                <input type="radio" name="membership"  value="Standard" id="membership"> Standard
+               <br> <input type="radio" name="membership" value="Premuim" id="membership-1"> Premuim
+               <div class="feedback"></div>
+            </div>
+            <div><br>
+                <div class="match"></div>
+                <label for="password">Password</label><br>
+                <input type="password" id="password-1" name="password" placeholder="8 characters minimum">
+                <div class="feedback"></div>
+            </div>
+            <div><br>
+                <label for="password">Confirm Password</label><br>
+                <input type="password" id="password-2" name="password" placeholder="8 characters minimum">
+                <div class="feedback"></div>
+            </div> <br>
+            <input type="submit" value="Sign-in"><br>
+            <br>
+            <div class="terms">
+                <p>By Clicking sign-in you agree to our <span>Terms & Conditions</span></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
